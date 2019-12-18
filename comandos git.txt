@@ -1,0 +1,10 @@
+git status (estado del estado de los archivos modificados)
+git add ("." para agregar todo, o por archivo o por nombre individualmente)
+git commit -m "" (lo que se hizo en el commit, muestra un mensaje)
+una vez que se tiene el commit se puede tirar el comando:
+git push origin (master) * esto ultimo varia segun la branch que se esta usando
+git pull origin master (sirve para traer la informacion actualizada desde la nube a tu local
+
+git checkout .  PELIGRO esto elimina todos los cambios que hiciste desde tu ultima actualizacion local+
+git checkout -b Nombre de la branch que quiero crear
+git checkout nombre de la branch a la que me quiero mover
