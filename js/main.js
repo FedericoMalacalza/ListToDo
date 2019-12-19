@@ -17,11 +17,11 @@
 			return false;
 		}
  
-		// Agregamos el contenido al enlace
+		// Agregamos contenido
 		enlace.appendChild(contenido);
-		// Le establecemos un atributo href
+		// Atributo href
 		enlace.setAttribute("href", "#");
-		// Agrergamos el enlace (a) a la nueva tarea (li)
+		// Agrergamos enlace a lista
 		nuevaTarea.appendChild(enlace);
 		// Agregamos la nueva tarea a la lista
 		lista.appendChild(nuevaTarea);
